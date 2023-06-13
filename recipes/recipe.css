@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+body{
+    background-color: hsl(221, 39%, 11%);
+    color:hsl(0, 100%, 99%);
+    line-height: 1.5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Tilt Prism', cursive;
+    font: 32px;
+}
+ul{
+    list-style: none;
+    margin-left: -32px;
+    font-size: 18px;
+}
+img{
+    border-radius:2%;
+    height: auto;
+}
+ol,p{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+ol{
+    list-style: none;
+    max-width: 910px;
+    text-align: center;
+    background-color: #1a2435;
+    padding-right: 37px;
+    border-radius: 2%;
+}
+h2,h3{
+    font-family: 'Alata', sans-serif;
+}
+a{
+    color: #e38d3b;
+    font-size: 18px;
+    font-family: 'Inter',sans-serif;
+  }
